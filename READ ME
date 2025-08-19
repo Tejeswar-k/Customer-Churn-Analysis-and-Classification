@@ -1,0 +1,39 @@
+
+# Customer Churn Analysis & Classification
+
+A Python-based project for analyzing customer churn using data visualization and machine learning models to predict churn probability. This project leverages libraries like Pandas, Scikit-learn, and Matplotlib for data preprocessing, model training, and insightful visualizations. :contentReference[oaicite:0]{index=0}
+
+---
+
+##  Table of Contents
+
+- [Overview](#overview)  
+- [Dataset](#dataset)  
+- [Project Structure](#project-structure)  
+- [Getting Started](#getting-started)  
+- [Usage](#usage)  
+- [Highlights](#highlights)  
+- [License](#license)
+
+---
+
+## Overview
+
+In this project, we perform an end-to-end customer churn analysis—exploring key churn drivers and building predictive models to forecast customer churn. The goal is to empower businesses to anticipate churn risk and take proactive retention measures.
+
+---
+
+## Dataset
+
+The dataset used is `WA_Fn-UseC_-Telco-Customer-Churn.csv`, containing features such as demographics, account information, and customer usage patterns. :contentReference[oaicite:1]{index=1}
+
+---
+
+## Project Structure
+
+Churn Analysis - EDA.ipynb # Exploratory Data Analysis
+├── Churn Analysis - Model Building.ipynb # Feature engineering & ML modeling
+├── Customer Churn Knowledge.py # Reusable scripts & helper functions
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Raw data
+├── model.sav # Serialized trained model
+├── tel_churn.csv # Processed dataset
